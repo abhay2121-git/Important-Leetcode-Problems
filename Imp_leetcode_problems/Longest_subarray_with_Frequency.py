@@ -1,4 +1,5 @@
 # Hackerrank Question
+# Longest Subarray with frequency
 # Given an array of integers, what is the lenght of the longest subarray containing no more than two distinct values
 # such that the distinct values differ by no more than 1? 
 # Example : arr = [0, 1, 2, 1, 2, 3], the largest such subarray has length : 4[1, 2, 1, 2].

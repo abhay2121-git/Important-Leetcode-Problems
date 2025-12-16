@@ -23,17 +23,3 @@ class Stringg:
 
 string = "abcdef"
 Stringg(string).reverse_str()    # O(n)
-
-# Swapping values
-class Sol:
-    def __init__(self):
-        pass
-
-    def swapping(self, g, h):
-        g, h = h, g
-        print("g: ",g)
-        print("h: ",h)
-
-g = 10
-h = 20
-Sol().swapping(g, h)

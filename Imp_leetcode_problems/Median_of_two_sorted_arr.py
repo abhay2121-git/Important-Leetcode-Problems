@@ -1,3 +1,4 @@
+# Median of a sorted array
 class Median:
     def __init__(self, nums1, nums2):
         self.nums1 = nums1

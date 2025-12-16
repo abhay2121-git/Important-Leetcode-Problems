@@ -1,3 +1,4 @@
+
 class Solution:
     def __init__(self, sentence):
         self.sentence = sentence
@@ -9,14 +10,3 @@ class Solution:
 sentence = "aabbccaa"
 print(Solution(sentence).circular_sentence())
 
-
-class Circular:
-    def __init__(self, sentence):
-        self.sentence = sentence
-    
-    def circular_sentences(self):
-        ss = sentence.split()
-        n = len(ss)
-        return (all (s[-1] == ss[(i + 1) % n][0] for i, s in enumerate(ss)))
-sentence = "aabbcc"
-print(Circular(sentence).circular_sentences())

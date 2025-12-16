@@ -23,3 +23,6 @@ class Solution:
 
 s = "abccbaacz"
 print(Solution().appear_twice(s))
+
+# first_letter_to_appear_twice
+

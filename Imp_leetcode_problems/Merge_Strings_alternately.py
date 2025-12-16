@@ -1,3 +1,4 @@
+# Merge String alternately
 # Example 1:
 # Input : word1 = "abc", word2 = "pqr"
 # Output : "apbqcr"

@@ -1,3 +1,4 @@
+# remove dupicates from sorted list
 # Example 1
 # Input: head = [1,1,2]
 # Output: [1,2]

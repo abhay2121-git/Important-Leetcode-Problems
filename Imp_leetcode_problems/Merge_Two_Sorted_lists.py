@@ -7,10 +7,10 @@ class ListNode:
 
 
 class Solution:
+    # Function to solve the problem
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         dummy = ListNode()
-        current = dummy
-        
+        current = dummy 
         
         while list1 and list2:
             if list1.val < list2.val:

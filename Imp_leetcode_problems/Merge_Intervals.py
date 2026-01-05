@@ -15,3 +15,16 @@ class Solution:
                 merged[-1] = [merged[-1][0], max(merged[-1][1], interval[1])]
         
         return merged
+
+# Another Approach
+        # intervals.sort(key=lambda i: i[0])
+        # output = [intervals[0]]
+
+        # for start, end in intervals[1:]:
+        #     lastEnd = output[-1][1]
+
+        #     if start <= lastEnd:
+        #         output[-1] = [output[-1][0], max(lastEnd, end)]
+        #     else:
+        #         output.append([start, end])
+        # return output

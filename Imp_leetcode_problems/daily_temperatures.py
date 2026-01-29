@@ -25,6 +25,3 @@ class Solution:
             stack.append(i)
 
         return answer
-    
-temperatures = [73,74,75,71,69,72,76,73]
-print(Solution().dailyTemperatures(temperatures))

@@ -41,11 +41,3 @@ def print_linked_list(head):
         current = current.next
     
     print("[" + ",".join(result) + "]")
-
-
-# ✅ Proper execution
-arr = [1, 2, 3, 4, 5]
-head = create_linked_list(arr)
-
-middle = Solution().middleNode(head)
-print_linked_list(middle)

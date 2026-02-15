@@ -18,3 +18,4 @@ class Solution:
             a, b = without_carry, carry
         
         return bin(a)[2:]
+    

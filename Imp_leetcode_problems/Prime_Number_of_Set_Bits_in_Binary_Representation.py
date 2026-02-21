@@ -19,6 +19,3 @@ class Solution:
 
         return count
     
-left = 6
-right = 10
-print(Solution().countPrimeSetBits(left, right))

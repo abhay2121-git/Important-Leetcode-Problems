@@ -1,4 +1,4 @@
-# minimum_difference_between_highest_and_lowest_of_k_scores
+# minimum_difference_between_highest_and_lowest_of_k_scores 
 
 # Example 1:
 # Input: nums = [90], k = 1
@@ -20,7 +20,3 @@ class Solution:
             min_diff = min(min_diff, diff)
 
         return min_diff
-
-nums = [9, 4, 1, 7]
-k = 2
-print(Solution().minimumDifference(nums, k))

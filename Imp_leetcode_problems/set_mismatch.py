@@ -18,3 +18,4 @@ class Solution:
         missing = expected_sum - unique_sum
 
         return [duplicate, missing]
+    

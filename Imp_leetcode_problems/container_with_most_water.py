@@ -15,4 +15,3 @@ class Solution:
 
 height = [1, 3, 5, 2, 8, 1, 6, 7]
 print(Solution(height).container())
-

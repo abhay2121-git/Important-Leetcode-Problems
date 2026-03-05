@@ -18,3 +18,4 @@ class Solution:
         t_str = Counter(t)
 
         return s_str == t_str
+        

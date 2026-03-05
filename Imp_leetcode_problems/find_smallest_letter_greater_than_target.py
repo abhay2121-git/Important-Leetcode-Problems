@@ -28,7 +28,3 @@ class Solution:
                 l = mid + 1
         
         return letters[l]
-
-letters = ["c","f","j"]
-target = "a"
-print(Solution().nextGreatestLetter(letters, target))

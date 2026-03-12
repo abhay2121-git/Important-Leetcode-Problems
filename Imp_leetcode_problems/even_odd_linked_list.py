@@ -27,5 +27,3 @@ class Solution:
         odd.next = even_head
     
         return head
-    
-    

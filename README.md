@@ -22,7 +22,7 @@ The repository includes problems from the following topics:
 - Two Pointers  
 - Sliding Window  
 - Bit Manipulation  
-- Time & Space Optimization  
+- Time & Space Optimization
 
 (More topics will be added as I progress.)
 

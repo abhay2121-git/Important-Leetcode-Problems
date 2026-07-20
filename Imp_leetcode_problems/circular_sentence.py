@@ -9,3 +9,4 @@ class Solution:
         return (all(s[-1] == ss[(i + 1) % n][0] for i, s in enumerate(ss)))
 sentence = "aabbccaa"
 print(Solution(sentence).circular_sentence())
+

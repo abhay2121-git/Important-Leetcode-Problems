@@ -8,10 +8,7 @@
 # Output: [[], [0]]
 
 class Solution:
-    def __init__(self, nums):
-        self.nums = nums
-
-    def subsets(self):
+    def subsets(self, nums):
         n = len(nums)
         res, sol = [], []
 
@@ -32,5 +29,5 @@ class Solution:
         return res
 
 nums = [1, 2, 3]
-sol = Solution(nums).subsets()
+sol = Solution().subsets(nums)
 print(sol)

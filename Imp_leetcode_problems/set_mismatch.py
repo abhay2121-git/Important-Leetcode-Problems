@@ -18,4 +18,8 @@ class Solution:
         missing = expected_sum - unique_sum
 
         return [duplicate, missing]
-    
+
+if __name__ == "__main__":
+    nums = [1,2,2,4]
+    sol = Solution().findErrorNums(nums)
+    print(sol)

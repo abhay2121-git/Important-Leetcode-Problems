@@ -31,3 +31,7 @@ class Solution:
             result.append(s[i + 1 : j + 1])
         
         return ' '.join(result)
+
+s = "the sky is blue"
+sol = Solution().reverseWords(s)
+print(sol)

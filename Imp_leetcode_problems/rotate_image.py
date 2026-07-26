@@ -4,9 +4,6 @@
 # output : [[7, 4, 1], [8, 5, 2], [9, 6, 3]]
 
 class Solution:
-    def __init__(self):
-        pass
-
     def rotateimage(self, matrix):
         n = len(matrix)
         for i in range(n):

@@ -23,3 +23,8 @@ class Solution:
                         return True
         
         return count >= n
+
+if __name__ == "__main__":
+    flowerbed = [1,0,0,0,1], n = 1
+    sol = Solution().canPlaceFlowers(flowerbed)
+    print(sol)

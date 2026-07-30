@@ -36,4 +36,3 @@ The repository includes problems from the following topics:
 ---
 
 ## 📂 Repository Structure
-

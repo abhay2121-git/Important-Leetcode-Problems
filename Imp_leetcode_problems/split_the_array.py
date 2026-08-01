@@ -16,3 +16,9 @@ class Solution:
             if f > 2:
                 return False
         return True
+
+if __name__ == "__main__":
+    nums = [1,1,2,2,3,4]
+    sol = Solution().isPossibleToSplit(nums)
+    print(sol)
+    

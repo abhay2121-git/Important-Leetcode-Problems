@@ -18,4 +18,9 @@ class Solution:
         t_str = Counter(t)
 
         return s_str == t_str
-        
+
+if __name__ == "__main__":
+    s = "anagram"
+    t = "nagaram"
+    sol = Solution().isAnagram(s, t)
+    print(sol)

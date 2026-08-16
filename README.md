@@ -32,7 +32,3 @@ The repository includes problems from the following topics:
 - **Language:** Python  
 - **Platform:** LeetCode  
 - **Approach:** Optimal solutions with clear explanations and comments  
-
----
-
-## 📂 Repository Structure

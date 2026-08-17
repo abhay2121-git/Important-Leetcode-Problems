@@ -9,16 +9,9 @@
 
 
 class Solution:
-    def __init__(self, jewels, stones):
-        self.jewels = jewels
-        self.stones = stones
-    
-    def jewels_stones(self):
+    def jewels_stones(self, stones, jewels):
         c = 0
         for s in stones:
             if s in jewels:
                 c += 1
         return c
-stones = "aAAbbbb"
-jewels = "aA"
-print(Solution(jewels, stones).jewels_stones())

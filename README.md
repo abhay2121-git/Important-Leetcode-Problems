@@ -24,7 +24,6 @@ The repository includes problems from the following topics:
 - Bit Manipulation  
 - Time & Space Optimization
 
-(More topics will be added as I progress.)
 
 ---
 

@@ -14,6 +14,3 @@ class Solution:
             for j in range(n//2):
                 matrix[i][j], matrix[i][n-j-1] = matrix[i][n-j-1], matrix[i][j]
         return matrix
-
-matrix=[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-print(Solution().rotateimage(matrix))

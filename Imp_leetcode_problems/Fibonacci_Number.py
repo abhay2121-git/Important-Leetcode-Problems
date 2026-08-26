@@ -21,9 +21,6 @@ class Solution:
         
         return self.memo[n]
 
-n = 7
-sol = Solution().f(n)
-print(sol)
 
 # With Bottom-Up DP 
 class Soll:
@@ -44,7 +41,3 @@ class Soll:
             prev, cur = cur, prev + cur
 
         return cur
-
-n = 6
-sool = Soll(n).fibo()
-print(sool)

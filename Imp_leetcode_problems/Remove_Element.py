@@ -16,9 +16,3 @@ class Solution:
                 k += 1
             
         return k
-
-if __name__ == "__main__":
-    nums = [3,2,2,3]
-    val = 3
-    sol = Solution().removeElement(nums, val)
-    print(sol)

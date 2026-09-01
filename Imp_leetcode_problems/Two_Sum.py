@@ -22,9 +22,6 @@
 # Output: [0,1]
 
 class Solution:
-    def __init__(self):
-        pass
-
     def twoSum(self, nums, target: int):
         mapp = {}
         for i, n in enumerate(nums):

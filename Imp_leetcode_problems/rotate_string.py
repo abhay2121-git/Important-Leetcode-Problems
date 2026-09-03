@@ -1,10 +1,6 @@
 
 class String:
-    def __init__(self, s, goal):
-        self.s = s
-        self.goal = goal
-    
-    def rotate_string(self):
+    def rotate_string(self, s, goal):
         if len(s) != len(goal):
             return False
         

@@ -18,3 +18,8 @@ class Solution:
         t_str = Counter(t)
 
         return s_str == t_str
+
+s = "anagram"
+t = "nagaram"
+obj = Solution().isAnagram(s, t)
+print(obj)

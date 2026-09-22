@@ -21,7 +21,3 @@ class Solution:
                 stack.append(int(i))
 
         return sum(stack)
-
-operations = ["5","2","C","D","+"]
-obj = Solution().calPoints(operations)
-print(obj)

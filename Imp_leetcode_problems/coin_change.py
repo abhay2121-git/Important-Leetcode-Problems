@@ -22,3 +22,9 @@ class Solution:
                     dp[i] = min(dp[i], dp[i - coin] + 1)
         
         return dp[amount] if dp[amount] != float('inf') else -1
+
+
+coins = [1]
+amount = 0
+obj = Solution().coinChange(coins, amount)
+print(obj)

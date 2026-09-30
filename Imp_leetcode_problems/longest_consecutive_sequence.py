@@ -28,3 +28,7 @@ class Solution:
                 longest = max(longest, length)
 
         return longest
+
+nums = [100,4,200,1,3,2]
+obj = Solution().longestConsecutive(nums)
+print(obj)
